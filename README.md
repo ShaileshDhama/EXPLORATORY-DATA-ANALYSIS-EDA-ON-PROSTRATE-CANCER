@@ -1,62 +1,69 @@
 # EXPLORATORY DATA ANALYSIS(EDA) ON PROSTRATE CANCER
+
 ## Gleason-based-Prostate-Cancer-Assessment
 
 **Author**: SHAILESH DHAMA
 
-The contents of this repository detail an analysis of the module one project. This analysis is detailed in hopes of making the work accessible and replicable.
+### LIBRARIES USED :
+    1.Pandas 
+    2.Numpy 
+    3.Rasterio 
+    4.Matplotlib 
+    5.Seaborn
 
+## STEPS:
 
-### Business problem:
-
-Here is where you state the business problem you were trying to solve
-
-
-### Data
-Data can include source and high-level description (e.g. # obs)
-
-
-## Methods
-- descriptive analysis
-- choices made
-- key relevant findings from exploritory data analysis for mod 1, will be more involved in future mod
+    - Data Cleaning and Data Preprocessing
+    - Image Masking
+    - Data Exploration
+    - Data Analysis
 
 ## RESULTS:
 
-#### Visual 1
-![graph1](./images/visual1.png)
-> Sentence about visualization.
+#### Image Masking:
+![Normal](./PANDA_1.png)
+![Masked](./PANDA_2.png)
 
-#### Visual 2
-![graph2](./images/visual2.png)
-> Sentence about visualization.
+![Normal](./PANDA_5.png)
+![Masked](./PANDA_51.png)
 
+![Normal](./PANDA_6.png)
+![Masked](./PANDA_61.png)
 
-## Recommendations:
+![Normal](./PANDA_7.png)
+![Masked](./PANDA_71.png)
 
-More of your own text here
+![Normal](./PANDA_8.png)
+![Masked](./PANDA_81.png)
 
+#### Data Analysis Visualisations:
 
-## Limitations & Next Steps
+![ISUP_Grade](./PANDA_10.png)
+> Graph of ISUP_Grade and Data_Count in Percentage 
 
-More of your own text here
+![Gleason_Score](./PANDA_11.png)
+> Graph of Gleason_Score and Data_Count in Percentage
 
+![Grouping](./PANDA_12.png)
+> Examination Grouping based on ISUP_Grade and Gleason_Score
+
+![Grouping1](./PANDA_13.png)
+> Examination Grouping based on Data_Provider and Gleason_Score
+
+![Grouping2](./PANDA_14.png)
+> Examination Grouping based on Data_Provider and ISUP_Grade
 
 ### For further information
-Please review the narrative of our analysis in [our jupyter notebook](./main_notebook.ipynb) or review our [presentation](./SampleProjectSlides.pdf)
+Please review the narrative of our analysis in [our jupyter notebook](./prostrate-cancer-beginner-eda.ipynb)
 
-For any additional questions, please contact **email, email, email)
+For any additional questions, please contact **shaileshshettyd@gmail.com)
 
 
 ##### Repository Structure:
 
-Here is where you would describe the structure of your repoistory and its contents, for exampe:
-
 ```
 
-├── README.md                       <- The top-level README for reviewers of this project.
-├── main_notebook.ipynb             <- narrative documentation of analysis in jupyter notebook
-├── presentation.pdf                <- pdf version of project presentation
-└── images
-    └── images                          <- both sourced externally and generated from code
-
+├── README.md                                       <- The top-level README for reviewers of this project.
+├── prostrate-cancer-beginner-eda.ipynb             <- narrative documentation of analysis in jupyter notebook
+└── images                                          <- both sourced externally and generated from code
 ```
